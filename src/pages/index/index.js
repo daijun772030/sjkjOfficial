@@ -1,4 +1,4 @@
-require('../index.css')
+require('./index.css')
 import axios from './myapi.js'
 
 // (function(window, document) {

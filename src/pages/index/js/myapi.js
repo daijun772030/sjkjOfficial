@@ -189,8 +189,6 @@ const apis = {
     addCodeModel: get('/code/addCodeModel'),
     //查询所有礼品卡
     queryCodeModel: get('/code/all'),
-    //官网添加反馈
-    websiteFeedback: post('/feedback/addFeedbackWebsite')
 }
 const request = function(name, data, config) {
     return apis[name](data)(config);

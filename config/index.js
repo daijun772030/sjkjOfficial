@@ -12,7 +12,7 @@ module.exports = {
         assetsPublicPath: '/',
         proxyTable: {
             '/api': {
-                target: "http://192.168.0.118:8082",
+                target: "http://www.pigcome.com:8082",
                 changeOrigin: true, // 是否跨域
                 pathRewrite: {
                     '^/api': ''
